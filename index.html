@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0",maximum-scale=1.0 , user-scaleable="1">
+        <title>Speech to text</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="Speech_to_text">
+            <h1> Speech to Text Convertor</h1>
+            <textarea id="convert_text" ></textarea>
+            <button id="start">Start</button>
+            <button  onclick="onConnectUsb()" id="connect" >Connect</button>  
+            <p id="instruction">Click Start Button</p>  
+             
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
+        <script src="https://idmnyu.github.io/p5.js-speech/lib/p5.speech.js"></script> 
+        <script src="script.js"></script>
+        <script src="arduino.js"></script> 
+
+    </body>
+</html>
